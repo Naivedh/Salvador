@@ -1,0 +1,15 @@
+body {
+     background-color: #F4F7F5;
+}
+.faq {
+    max-width: 700px;
+    margin: 0 auto 50px auto;
+    color: #222823;
+    cursor: pointer;
+	padding: 5rem !important;
+}
+.faq h4 {
+    margin-left: 30px;
+    padding:10px ;
+    
+}
