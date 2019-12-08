@@ -1,16 +1,6 @@
 <?php
-/* Database credentials. Assuming you are running MySQL
-server with default setting (user 'root' with no password) */
-define('DB_SERVER', 'localhost');
-define('DB_USERNAME', 'root');
-define('DB_PASSWORD', '');
-define('DB_NAME', 'demo');
- 
-/* Attempt to connect to MySQL database */
-$link = mysqli_connect(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME);
- 
-// Check connection
-if($link === false){
-    die("ERROR: Could not connect. " . mysqli_connect_error());
-}
+	define('TWITTER_CONSUMER_KEY', 'FH7ST7GePll6zj0bzvCpeIWQ9');
+	define('TWITTER_CONSUMER_SECRET', 'xsNNyXNzaQYjaPY2RMeNlp9lVdHpgGTALJJc2019H9gKaa2ou5');
+	define('TWITTER_ACCESS_TOKEN', '1202538796165685248-uboSaz1QWZTY5u2cSP6iFGyR4Ed4IP');
+	define('TWITTER_ACCESS_TOKEN_SECRET', 'g9Lha4hGsQ7Txc6aD3YTEc1pSDQ7rV6fd1x2u7cFeYyov');
 ?>
